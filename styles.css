@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e7fa; /* Un tono suave de azul */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #FFFFFF;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .division {
+    background-color: #3469db;
+  }
+  
+  /* Botón de añadir tarea (Amarillo) */
+  button#add-btn {
+    padding: 10px 15px;
+    background-color: #f1c40f; /* Amarillo */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button#add-btn:hover {
+    background-color: #59f312; /* Amarillo más oscuro */
+  }
+  
+  /* Botón de eliminar (Rojo) */
+  button.delete-btn {
+    background-color: #e74c3c; /* Rojo */
+    color: white;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button.edit-btn {
+    background-color: #f39c12; /* Naranja */
+    color: white;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.edit-btn:hover {
+    background-color: #e67e22; /* Naranja más oscuro */
+  }
+  
+  
+  button.delete-btn:hover {
+    background-color: #c0392b; /* Rojo más oscuro */
+  }
+  
+  /* Botón de completar (Azul) */
+  button.complete-btn {
+    background-color: #3498db; /* Azul */
+    color: white;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Esto estaba faltando */
+  }
+  
+  button.complete-btn:hover {
+    background-color: #2980b9; /* Azul más oscuro */
+  }
+  
